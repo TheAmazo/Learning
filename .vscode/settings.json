@@ -1,3 +1,4 @@
 {
-  "githubRepositories.autoFetch.interval": 15
+  "githubRepositories.autoFetch.interval": 15,
+  "liveServer.settings.CustomBrowser": "chrome"
 }
