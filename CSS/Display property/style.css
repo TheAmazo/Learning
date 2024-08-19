@@ -1,0 +1,89 @@
+/*                 example --> 1                            */
+
+#div1 {
+  background-color: hsl(0, 100%, 75%);
+}
+
+#span1 {
+  background-color: hsl(204, 100%, 75%);
+}
+
+/*                 example --> 2                            */
+
+#div2 {
+  background-color: hsl(0, 100%, 75%);
+  width: 100px;
+  height: 100px;
+}
+
+#span2 {
+  background-color: hsl(204, 100%, 75%);
+  width: 100px;
+  height: 100px; /* width and height didn't applied here until we use display property*/
+}
+
+/*                 example --> 3                            */
+
+#div3 {
+  background-color: hsl(0, 100%, 75%);
+  width: 100px;
+  height: 100px;
+  display: block; /*this do not change anything because this is already a block by default*/
+}
+
+#span3 {
+  background-color: hsl(204, 100%, 75%);
+  width: 100px;
+  height: 100px;
+  display: block; /*This changes span element to a block by applying above width and height*/
+}
+
+/*                 example --> 4                            */
+
+#div4 {
+  background-color: hsl(0, 100%, 75%);
+  width: 100px;
+  height: 100px; /*we cannot apply width and height here*/
+  display: inline;
+}
+
+#span4 {
+  background-color: hsl(204, 100%, 75%);
+  width: 100px;
+  height: 100px; /*we cannot apply width and height here*/
+  display: inline; /*This is already inline*/
+}
+
+/*                 example --> 5                            */
+
+#div5 {
+  background-color: hsl(0, 100%, 75%);
+  width: 100px;
+  height: 100px; /*we can apply width and height here by using inline-block*/
+  display: inline-block;
+}
+
+#span5 {
+  background-color: hsl(204, 100%, 75%);
+  width: 100px;
+  height: 100px; /*we can apply width and height here by using inline-block*/
+  display: inline-block; /*This is already inline*/
+}
+
+/*                 example --> 5                            */
+
+#div6 {
+  background-color: hsl(0, 100%, 75%);
+  width: 100px;
+  height: 100px;
+  display: none; /*become invisible but shows space using above height and width*/
+}
+
+#span6 {
+  background-color: hsl(204, 100%, 75%);
+  width: 100px;
+  height: 100px;
+  display: none;
+  visibility: hidden; /*This also hide the element*/
+  /*when using these two will hidden the element and also remove space acquired by element*/
+}
