@@ -1,0 +1,25 @@
+div {
+  border: 2px solid;
+  height: 100px;
+  margin-bottom: 50px;
+}
+
+/*text overflow visible*/
+#box1 {
+  overflow: visible;
+}
+
+/*text overflow hidden*/
+#box2 {
+  overflow: hidden;
+}
+
+/*text overflow will hidden with scroll bar*/
+#box3 {
+  overflow: scroll;
+}
+
+/*automatically ajust overflow according scenario*/
+#box4 {
+  overflow: auto;
+}
